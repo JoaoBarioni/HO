@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+float a;
+float b;
+float c=3.141592;
+float d;
+int main(){
+printf("Cylinder volume calculator\n\n");
+printf("Enter the height and radius,
+respectively:\n");
+printf("Height:");
+scanf("%f", &a);
+printf("Radius:");
+scanf("%f", &b);
+d=(c*a*b);
+printf("Volume:%.2f m^3\n\n\n",d);
+}
