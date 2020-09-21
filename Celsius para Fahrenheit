@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+int y;
+int x;
+int main(){
+printf("Fahrenheit to celsius converter\n\n");
+printf("Write a value:");
+scanf("%d", &x);
+y=5*((x-32)/9);
+printf("%d F\n\n\n", y);
+}
