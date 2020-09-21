@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+int a;
+int b;
+int c;
+int main(){
+printf("Predecessor and successor number
+generator\n");
+printf("Enter the number:");
+scanf("%d", &a);
+b=a+1;
+c=a-1;
+printf("Predecessor:%d\n", c);
+printf("Successor:%d\n\n\n", b);
+}
