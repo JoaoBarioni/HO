@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+int x;
+int y;
+int main(){
+printf("kilometers to miles converter\n\n");
+printf("Write a value:");
+scanf("%d",&x);
+y=(x/1.61);
+printf("Miles:%d\n\n\n", y);
+}
