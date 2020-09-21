@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+ int f;
+ int a;
+ int b;
+ int c;
+printf("Number adder\n\n");
+printf("Write three numbers:");
+scanf("%d",&a);
+scanf("%d",&b);
+scanf("%d",&c);
+int x=a+b+c;
+printf("The sum is equal:%d\n\n\n", x);
+}
